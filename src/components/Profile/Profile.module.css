@@ -1,17 +1,15 @@
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 100vh;
   width: 100vw;
   background: #262626;
-  overflow: hidden;
 }
 
 .profile {
   width: 80%;
   max-width: 1140px;
-  margin: auto;
+  margin: 1rem auto;
   display: flex;
   flex-direction: column;
   position: relative;

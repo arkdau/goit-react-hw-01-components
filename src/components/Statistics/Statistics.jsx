@@ -1,7 +1,6 @@
 import clsx from 'clsx';
- import css from './Statistics.module.css';
+import css from './Statistics.module.css';
  // import { element, PropTypes } from 'prop-types';
-
 
 const Statistics = ({title, stats}) => (
     <section className={css.statistics}>

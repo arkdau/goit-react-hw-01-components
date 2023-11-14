@@ -1,7 +1,7 @@
 .statistics {
    width: 80%;
    max-width: 1140px;
-   margin: auto;
+   margin: 1rem auto;
    display: flex;
    flex-direction: column;
    position: relative;
@@ -17,7 +17,7 @@
   text-transform: uppercase;;
 font-size: 32Q;
 font-weight: bold;
-color: green;
+color: black;
 margin-top: 3rem;
 }
 
