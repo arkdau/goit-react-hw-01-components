@@ -1,11 +1,10 @@
 .transactionHistory {
- background-color: #ffffff;
- font-size: 1.5rem;
+  background-color: #ffffff;
+  font-size: 1.5rem;
 }
 
-
 table {
-  border-collapse:collapse;
+  border-collapse: collapse;
   width: 100%;
 }
 th {
@@ -20,7 +19,6 @@ td {
   text-align: center;
   border: 1px solid #ccc;
   color: gray;
-
 }
 tbody tr:nth-child(odd) {
   background: #ecf1f4;
