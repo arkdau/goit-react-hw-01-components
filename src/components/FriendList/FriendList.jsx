@@ -5,7 +5,7 @@ import { PropTypes } from "prop-types";
 const FriendList = ({ friends }) => (
   <ul className={css.friendList}>
     {friends.map((item, index) => (
-      <li key={index} className={css.item}>
+      <li key={item.id} className={css.item}>
         <span
           className={clsx(css.status, item.isOnline ? css.onLine : css.offLine)}
         >
