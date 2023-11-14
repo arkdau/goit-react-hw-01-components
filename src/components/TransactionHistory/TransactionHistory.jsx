@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import css from './TransactionHistory.module.css';
 
 const TransactionHistory = ({items}) => (
-<table class="transaction-history">
+<table className={css.transactionHistory}>
   <thead>
     <tr>
       <th>Type</th>

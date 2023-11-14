@@ -1,23 +1,27 @@
 .transactionHistory {
-
+ background-color: #ffffff;
+ font-size: 1.5rem;
 }
 
 
 table {
-  border-collapse: collapse;
+  border-collapse:collapse;
   width: 100%;
 }
 th {
-  padding: 0.25rem;
+  padding: 1rem 12rem;
   text-align: center;
   border: 1px solid #ccc;
-  background: white;
+  background: #00bcd5;
+  color: #ffffff;
 }
 td {
-  padding: 0.25rem;
+  padding: 1rem 12rem;
   text-align: center;
   border: 1px solid #ccc;
+  color: gray;
+
 }
 tbody tr:nth-child(odd) {
-  background: #eee;
+  background: #ecf1f4;
 }

@@ -12,7 +12,7 @@ const Statistics = ({title, stats}) => (
           return (
                <li key={item.id} className={clsx(css.item, color[index])}>
                    <span className={css.label}>{item.label}</span>
-                   <span className={css.percentage}>{item.percentage}</span>
+                   <span className={css.percentage}>{item.percentage}%</span>
                </li>
       )
        })}
